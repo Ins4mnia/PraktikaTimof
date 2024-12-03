@@ -1,0 +1,31 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px;
+  margin-bottom: 60px;
+  &__logo {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: #f12361;
+  }
+  &__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    a {
+      background-color: white;
+      border: 0;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17.07px;
+      transition: 0.2s linear;
+      &:hover {
+        color: #f12361;
+      }
+    }
+  }
+}

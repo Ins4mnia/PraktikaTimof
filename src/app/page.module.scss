@@ -1,0 +1,77 @@
+.controls {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  &__button__skip {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.91px;
+    border: 0;
+    outline: 0;
+    padding: 10px 24px;
+    border-radius: 100px;
+    background-color: #5a5a5a0d;
+  }
+
+  &__button__like {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.91px;
+    border: 0;
+    outline: 0;
+    padding: 10px 24px;
+    border-radius: 100px;
+    color: #fafafa;
+    background-color: #f12361;
+  }
+}
+
+.Metki {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.metochki {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.tagButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.activeTag {
+  background-color: #f12361;
+  color: white;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.likeButton {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.91px;
+  border: 0;
+  outline: 0;
+  padding: 10px 24px;
+  border-radius: 100px;
+  color: #fafafa;
+  background-color: #f12361;
+}

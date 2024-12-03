@@ -1,0 +1,48 @@
+.ProfileCard {
+  width: 400px;
+  height: 450px;
+  background-position: center 10%;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+  &__more {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+    &__s {
+      background: white;
+      padding: 5px 10px;
+      border-radius: 25px;
+    }
+  }
+  &__gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 75%, #000000 100%);
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    h2 {
+      color: #fafafa;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26.82px;
+    }
+    p {
+      color: #fafafa;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17.07px;
+    }
+  }
+}

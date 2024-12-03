@@ -1,0 +1,30 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  margin-top: 60px;
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    a {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17.07px;
+      transition: 0.2s linear;
+      &:hover {
+        color: #f12361;
+      }
+    }
+  }
+  &__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+}

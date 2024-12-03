@@ -1,0 +1,12 @@
+.AuthButton {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  border: 0;
+  outline: 0;
+  background-color: white;
+  transition: 0.2s linear;
+  &:hover {
+    color: #f12361;
+  }
+}
